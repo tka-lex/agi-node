@@ -3,3 +3,5 @@ node_modules/*
 package/*
 .tern-port
 play
+.idea/
+package-lock.json

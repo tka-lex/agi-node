@@ -1,7 +1,7 @@
 'use strict';
 
 /* eslint no-var: 0 */
-var AGIServer = require('../index').AGIServer;
+const AGIServer = require('../index').AGIServer;
 
 function fakeCallback(param, callback) {
   setTimeout(function () {
@@ -20,7 +20,7 @@ function testScript(channel) {
     console.log('Error in script', ex);
   }
 
-  // var answerReply = channel.answer();
+  // const answerReply = channel.answer();
   // console.log('ANSWER', answerReply);
 
   // console.log('CHANNEL STATUS', channel.channelStatus());
@@ -50,4 +50,4 @@ function testScript(channel) {
   //   yield channel.hangup());
 }
 
-var server = new AGIServer(testScript, 4573);
+const server = new AGIServer(testScript, 4573);
