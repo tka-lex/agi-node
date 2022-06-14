@@ -12,8 +12,7 @@
   "author": "Alexandru Pirvulescu <alex@tcnbroadcasting.com>",
   "dependencies": {
     "asterisk-manager": "^0.1.15",
-    "sprintf-js": "^1.0.2",
-    "sync": "^0.2.5"
+    "sprintf-js": "^1.0.2"
   },
   "directories": {
     "example": "examples"
